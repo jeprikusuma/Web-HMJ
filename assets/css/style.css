@@ -2169,6 +2169,27 @@ img {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4)
 }
 
+.dataTableLength select{
+    /* margin: auto; */
+    display: inline-block;
+    height: 40px;
+    width: 15%;
+}
+
+.search {
+    float: right;
+}
+
+.search .form-control {
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+}
+
+.searchBerkas {
+    /* width: 300px; */
+}
+
 @media (max-width: 767px) {
     .countdown-container {
         margin: 0 6px;
