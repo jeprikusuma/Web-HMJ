@@ -12,6 +12,7 @@ buttonSearchCard.addEventListener("click", () => {
 //function search
 const startSearch = () => {
   const value = searchCard.value;
+  searchCard.value = "";
   getAllCards.forEach((card) => {
     const title = card.querySelector("h4").textContent.toUpperCase();
 
