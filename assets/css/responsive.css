@@ -133,7 +133,7 @@
         line-height: 26px;
     }
 
-    .section-heading > h2 {
+    .section-heading>h2 {
         line-height: 1.5;
     }
 }
@@ -163,6 +163,7 @@
         padding-top: 1.625rem;
         padding-bottom: 1.625rem;
     }
+
     .dropdown-menu {
         opacity: 0;
         display: block;
@@ -170,12 +171,13 @@
         min-width: 14.375rem;
         margin-top: 0;
         transform: translateY(20px);
-      }
-      .navbar-nav li:hover > ul.dropdown-menu {
+    }
+
+    .navbar-nav li:hover>ul.dropdown-menu {
         opacity: 1;
         transform: translateY(-10px);
         visibility: visible;
-      }
+    }
 }
 
 @media (max-width: 991px) {
@@ -259,10 +261,11 @@
     [data-theme=dark] .navbar.navbar-dark .nav-link:hover {
         background: #01081f;
     }
+
     [data-theme=dark] .dropdown-item:focus,
     [data-theme=dark] .dropdown-item:hover {
-    background: #01081f;
-  }
+        background: #01081f;
+    }
 
     .navbar-inner {
         position: fixed;
@@ -306,12 +309,13 @@
         background: #01081f;
     }
 
-    .navbar.navbar-dark .dropdown.show > .nav-link {
+    .navbar.navbar-dark .dropdown.show>.nav-link {
         color: #2c2e30;
-      }
-      [data-theme=dark] .navbar.navbar-dark .dropdown.show > .nav-link {
+    }
+
+    [data-theme=dark] .navbar.navbar-dark .dropdown.show>.nav-link {
         color: #e3e4e6;
-      }
+    }
 
     .nav-open .main-wrapper {
         -webkit-transform: translate3d(-150px, 0, 0);
@@ -428,6 +432,7 @@
 :: 3.0 WELCOME AREA CSS
 ****************************** */
 @media (max-width: 991px) {
+
     .welcome-area,
     .inner .welcome-area {
         height: 700px !important;
@@ -443,6 +448,7 @@
 }
 
 @media (max-width: 767px) {
+
     .welcome-area,
     .homepage-5 .welcome-area {
         height: 100% !important;
@@ -519,7 +525,7 @@
 :: 6.0 SCREENSHOTS AREA CSS
 ****************************** */
 @media (max-width: 575px) {
-    .single-screenshot > img {
+    .single-screenshot>img {
         max-width: 270px;
         margin: 0 auto;
     }
@@ -538,7 +544,7 @@
 :: 8.0 PRICE PLAN AREA CSS
 ****************************** */
 @media (max-width: 767px) {
-    .plan-price > h1 {
+    .plan-price>h1 {
         font-size: 4em;
     }
 
@@ -551,7 +557,7 @@
 }
 
 @media (max-width: 575px) {
-    .plan-price > h1 {
+    .plan-price>h1 {
         font-size: 3em;
     }
 }
@@ -569,9 +575,10 @@
 :: 10.0 CONTACT AREA CSS
 ****************************** */
 @media (max-width: 575px) {
-    .homepage-5 .contact-top > h3 {
+    .homepage-5 .contact-top>h3 {
         font-size: 1.8em;
     }
+
     .homepage-5 .contact-top h5 {
         font-size: 14px;
     }
